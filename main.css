@@ -1,0 +1,30 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+#gameboard {
+    width: 640px;
+    height: 640px;
+    background-color: aquamarine;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.square {
+    width: 80px;
+    height: 80px;
+    align-items: center;
+    justify-content: center;
+
+}
+.piece svg {
+    width: 48px;
+    height: 48px;
+}
+.bgred{
+    background-color: darkred;
+}
+.bglack{
+    background-color: aliceblue;
+}
